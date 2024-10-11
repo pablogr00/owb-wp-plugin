@@ -1,0 +1,49 @@
+{
+  "warehouses": [
+      {
+          "id": 1,
+          "name": "pablo",
+          "lot_stock_id": [8, "WH/Stock"]
+      },
+      {
+          "id": 2,
+          "name": "Almacén Sevilla",
+          "lot_stock_id": [18, "AS/Stock"]
+      },
+      {
+          "id": 3,
+          "name": "Almacén Madrid",
+          "lot_stock_id": [24, "AM/Stock"]
+      },
+      {
+          "id": 4,
+          "name": "AMRO Getafe",
+          "lot_stock_id": [30, "AG/Stock"]
+      },
+      {
+          "id": 5,
+          "name": "AMRO Pamplona",
+          "lot_stock_id": [36, "AP/Stock"]
+      },
+      {
+          "id": 7,
+          "name": "AMRO Sevilla",
+          "lot_stock_id": [48, "ASe/Stock"]
+      },
+      {
+          "id": 8,
+          "name": "Livensa Living Bilbao",
+          "lot_stock_id": [54, "LLB/Stock"]
+      },
+      {
+          "id": 9,
+          "name": "Livensa Living Coimbra",
+          "lot_stock_id": [60, "LLC/Stock"]
+      },
+      {
+          "id": 10,
+          "name": "Livensa Living Madrid Getafe",
+          "lot_stock_id": [66, "LLMG/Stock"]
+      }
+  ]
+}

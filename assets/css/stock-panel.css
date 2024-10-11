@@ -1,0 +1,85 @@
+.stock-table {
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+  margin-bottom: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.stock-table th,
+.stock-table td {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.stock-table-1 td:nth-child(3) {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+}
+
+.stock-table-2 td:nth-child(4) {
+  text-align: center;
+}
+
+#draft p {
+  width: 100px;
+  background-color: grey;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#assigned p {
+  width: 100px;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.stock-table thead {
+  background-color: #f4f4f4;
+}
+
+.stock-table th {
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.stock-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stock-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.stock-table tbody td {
+  vertical-align: middle;
+}
+
+.ajax-form input[type="number"] {
+  width: 120px;
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ajax-form button {
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ajax-form button:hover {
+  background-color: #45a049;
+}
+
+.stock-panel-title {
+  margin-bottom: 35px;
+}
